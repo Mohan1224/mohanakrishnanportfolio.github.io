@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.hero
+{
+	height: 100vh;
+	width: 100%;
+	background-image: url(image6.jpg);
+	background-size: cover;
+    background-position: center;
+    background-color:  #edf2fd;
+} 
+
+nav ul
+{
+  padding: 30px 20px;
+  list-style: none;
+  display: flex;
+  float: right;
+  border-radius: 2px;
+ }
+
+nav ul li
+{
+	padding: 10px 30px ;
+	list-style: none;
+    font-size: 30px;
+}
+
+
+nav ul li a 
+{
+  
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 25px;
+
+   border-radius: 30px;
+   border: 2px solid black;
+   background: #D7D7D7;
+
+   padding: 10px;
+   width: 200px;
+   height: 150px;
+
+}
+
+
+nav ul li a:hover 
+{
+  color: #ff4b5a;
+  transition: 1s;
+}
+
+.name
+{
+	color: black;
+   font-weight: bold;
+   font-size: 25px;
+
+   border-radius: px;
+   background: #D7D7D7;
+   border: 2px solid black;
+
+   padding: 10px;
+   float: center;
+
+
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: arial;
+  border-radius: 30px;
+  
+
+  
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.detel{
+	margin: 8% 0 0 8%;
+
+}
+
+.detel h1{
+	font-size: 55px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+
+.detel p {
+	color: #555;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+span{
+	color: ;
+}
+
+
+.detail{
+	margin: 1% 0 0 20%;
+
+}
+
+.detail h1{
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+
+.detail p {
+	font-size: 20px;
+	color: #555;
+	line-height: 29px;
+}
+
+span{
+	color: #ff4b5a;
+}
+
+
+a 
+{
+  
+   text-decoration: none;
+   color: #ff4b5a;
+   font-weight: ;
+   font-size: 20px;
+
+   }
